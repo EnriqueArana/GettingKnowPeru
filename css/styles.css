@@ -58,9 +58,11 @@ body #navegacion #navegacion__elementos {
 body #navegacion #navegacion__elementos li {
   float: left;
   list-style: none;
-  width: 170px;
+  width: 169px;
   text-align: center;
-  line-height: 33px;
+  line-height: 34px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 body #navegacion #navegacion__elementos li a {
   text-decoration: none;
