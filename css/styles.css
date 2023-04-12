@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Rubik Pixels';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubikpixels/v2/SlGXmQOaupkIeSx4CEpB7AdSaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tilt Prism';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/tiltprism/v7/5h11iZgyPHoZ3YikNzWGfWey2dCAZXT-bH9V4VGn-FJ7tLI25oc_rIbwoQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Chivo Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/chivomono/v5/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D4_qKfV.ttf) format('truetype');
+}
+#cabecera {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+#cabecera #cabecera__logo {
+  width: 120px;
+  margin-top: 20px;
+}
+#cabecera #cabecera__titulo {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 50%;
+  font-family: 'Tilt Prism', cursive;
+  font-size: 35px;
+  font-weight: bold;
+  color: #e2432a;
+  text-transform: uppercase;
+}
