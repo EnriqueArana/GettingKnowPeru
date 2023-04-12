@@ -19,16 +19,23 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/chivomono/v5/mFThWbgRxKvF_Z5eQMO9qRMrJJrnKNtC3D4_qKfV.ttf) format('truetype');
 }
-#cabecera {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+body #cabecera {
   width: 70%;
   margin: 0 auto;
   text-align: center;
 }
-#cabecera #cabecera__logo {
+body #cabecera #cabecera__logo {
   width: 120px;
   margin-top: 20px;
 }
-#cabecera #cabecera__titulo {
+body #cabecera #cabecera__titulo {
   margin: 0 auto;
   margin-top: 10px;
   width: 50%;
@@ -37,4 +44,58 @@
   font-weight: bold;
   color: #e2432a;
   text-transform: uppercase;
+}
+body #navegacion {
+  width: 100%;
+  background-color: #e2432a;
+  height: 35px;
+  margin-top: 15px;
+}
+body #navegacion #navegacion__elementos {
+  width: 80%;
+  margin: 0 auto;
+}
+body #navegacion #navegacion__elementos li {
+  float: left;
+  list-style: none;
+  width: 170px;
+  text-align: center;
+  line-height: 33px;
+}
+body #navegacion #navegacion__elementos li a {
+  text-decoration: none;
+  font-family: 'Chivo Mono', monospace;
+  color: white;
+}
+body #navegacion #navegacion__elementos li:hover {
+  background-color: white;
+  border-top: 1px solid #e2432a;
+  border-bottom: 1px solid #e2432a;
+}
+body #navegacion #navegacion__elementos li:hover a {
+  color: #e2432a;
+}
+body #navegacion #navegacion__elementos li ul {
+  display: none;
+  position: absolute;
+  width: 170px;
+  box-shadow: 0px 2px 2px gray;
+  z-index: 1;
+}
+body #navegacion #navegacion__elementos li:hover ul {
+  display: block;
+}
+body #navegacion #navegacion__elementos li:hover ul li {
+  background-color: #e2432a;
+  transition: all 300ms;
+}
+body #navegacion #navegacion__elementos li:hover ul li a {
+  color: white;
+}
+body #navegacion #navegacion__elementos li:hover ul li:hover {
+  background-color: white;
+  border: none;
+}
+body #navegacion #navegacion__elementos li:hover ul li:hover a {
+  color: #e2432a;
 }
